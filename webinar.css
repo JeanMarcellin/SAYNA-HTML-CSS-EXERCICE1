@@ -1,0 +1,127 @@
+
+body{
+	padding: 0px;
+	margin: 0px;
+	background: url(background.png);
+}
+body	.page{
+	margin: 20px 80pxssss;
+}
+/* Barre de navigation*/
+nav{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content:space-between ;
+		background-color: hotpink;
+		position: sticky;
+		top: 0;
+		background-position: center;
+		padding:0px 0px;
+		margin: 0 auto;
+}
+nav .onglets{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 2px;
+	margin-right: 20px;
+	cursor: pointer;
+	color: white;
+}
+nav .buttons button{
+	padding: 20px;
+	background-color: hotpink;
+	border: 5px solid hotpink;
+	color: white;
+	
+}
+.buttons button:hover{
+	background-color: deeppink;
+	color: white;
+	padding: 20px;
+}
+/* Fin de la barre de navigation
+	
+}
+/* Partie header*/
+header{
+	margin-top: 20px;
+	background:url(rainbow.png) ;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 600px 300px;
+color:hotpink;
+}
+header h1{
+	text-align:center ;
+	font-size: 60px;
+	padding: 150px;
+}
+/* Fin de la partie header*/
+
+/*Pieds de page*/
+footer{
+	padding:23px 100px ;
+	color: #333;
+	background-repeat: repeat-x;
+	box-shadow: 0px 3px 20px rgb(36, 34, 34);
+	background: #FFF;
+	margin: 23px 100px;
+	margin-right: 200px;
+	margin-left: 200px;
+	margin-top: -150px;
+	border-radius: 10px;
+	}
+h5{
+	font-family: 'Courgette', cursive;;
+	color: hotpink;
+	font-size: 20px;
+}
+
+a{
+	background-image: url(photo1.jpg);
+
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%;
+	margin-top: 20px;
+}
+div figure{
+	display: inline-block;
+	margin: 0 10px;
+}
+figure figcaption{
+	position: relative;
+	margin-top: -20px;
+	background-color: black;
+	opacity: 75%;
+	color: #FFF;
+	text-align: center;
+
+}
+button{
+	background-color: hotpink;
+	color: #FFF;
+	border-radius: 6px;
+	border-color: white;
+	border-style: hidden;
+}
+.paragraphe{
+	float: right;
+	margin-right:100px;
+}
+.Find{
+	text-align: right;
+	background-color: #E577B5;
+	padding: 15px;
+	margin: 15px;
+	color: white;
+	margin-top: 60px;
+}
+
+
+
+
+
+
+/*Fin de page*/
+
